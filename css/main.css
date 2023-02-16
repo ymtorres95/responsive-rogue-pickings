@@ -173,22 +173,24 @@ footer span {
 
 	/* Tablet styles here*/
 	.bottom-section .content-wrapper {
-		border-top: 5px solid #EEE;
-		border-bottom: 5px solid #EEE;
+		justify-content: space-evenly;
 	}
 
 	.section-one {
-		width: 100%;
+		width: 20%;
 	}
 
 	.section-two {
-		width: 100%;
-		border-top: 5px solid #EEE;
-		border-bottom: 5px solid #EEE;
+		width: 40%;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		border-top: none;
+		border-bottom: none;
+		padding: 0 30px;
 	}
 
 	.section-three {
-		width: 100%;
+		width: 26%;
 	}
 }
 
@@ -200,32 +202,22 @@ footer span {
 	}
 
 	header .content-wrapper {
-		justify-content: ;
-		align-items: :
-		padding: ;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0;
 	}
 	header h1{
-		width: ;
-		padding: ;
-		border-bottom: ;
-		text-align: ;
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
 	}
 	
-	header h1 {
-		margin: 0;
-		padding: 38px 0 20px 0;
-		border: 3px solid #77A466;
-		width: 100%;
-	}
 	header nav {
-		padding: 20px 0;
 		width: 21%;
 	}
 	
 	header nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
 		display: flex;
 		justify-content: space-between;
 	}
