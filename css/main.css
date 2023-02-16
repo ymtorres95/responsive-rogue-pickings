@@ -1,7 +1,8 @@
 /******** GLOBAL STYLES ********/
-hyml {
+html {
 	font-size: 16px;
 }
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: .9em;
@@ -12,7 +13,7 @@ body {
 .content-wrapper {
 	max-width: 1200px;
 	width: 90%;
-	display:flex;
+	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
 }
@@ -56,9 +57,9 @@ header {
 }
 
 header h1 {
-	margin:0;
+	margin: 0;
 	padding: 38px 0 20px 0;
-	border: 3px solid #77A466;
+	border-bottom: 3px solid #77A466;
 	width: 100%;
 }
 
@@ -71,7 +72,7 @@ header nav {
 }
 
 header nav ul {
-	margin:0;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
@@ -121,7 +122,7 @@ header nav ul li a {
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	
+
 }
 
 .section-one {
@@ -166,4 +167,66 @@ footer span {
 	text-transform: lowercase;
 	color: #45610E;
 	font-size: .875rem;
+}
+
+@media all and (min-width: 768px) {
+
+	/* Tablet styles here*/
+	.bottom-section .content-wrapper {
+		border-top: 5px solid #EEE;
+		border-bottom: 5px solid #EEE;
+	}
+
+	.section-one {
+		width: 100%;
+	}
+
+	.section-two {
+		width: 100%;
+		border-top: 5px solid #EEE;
+		border-bottom: 5px solid #EEE;
+	}
+
+	.section-three {
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 1200px) {
+
+	/* Desktop styles here */
+	body {
+		font-size: 1em;
+	}
+
+	header .content-wrapper {
+		justify-content: ;
+		align-items: :
+		padding: ;
+	}
+	header h1{
+		width: ;
+		padding: ;
+		border-bottom: ;
+		text-align: ;
+	}
+	
+	header h1 {
+		margin: 0;
+		padding: 38px 0 20px 0;
+		border: 3px solid #77A466;
+		width: 100%;
+	}
+	header nav {
+		padding: 20px 0;
+		width: 21%;
+	}
+	
+	header nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+	}
 }
